@@ -12,6 +12,25 @@ Two libraries are used.
  - [React Native WebView Javascript Bridge][1]
  - [react-native-video][2]
 
+```
+react-native init AwesomeProject
+cd AwesomeProject
+react-native run-ios
+//
+npm install react-native-webview-bridge --save
+npm install react-native-video --save
+```
+
+### Utility commands
+
+```
+// Android
+adb shell input keyevent 82
+
+// ip on mac
+ifconfig | grep inet
+```
+
 
 
 
