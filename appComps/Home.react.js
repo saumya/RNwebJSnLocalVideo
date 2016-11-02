@@ -7,24 +7,19 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  WebView,
+  View,
+  Dimensions,
 } from 'react-native';
 
 
 class Home extends Component {
 	render(){
+		var wH = Dimensions.get('window').height
+		var wW = Dimensions.get('window').width
 		return(
 			<View style={styles.container}>
-				<Text style={styles.welcome}>
-				Welcome to React Native!
-				</Text>
-				<Text style={styles.instructions}>
-				To get started, edit index.ios.js
-				</Text>
-				<Text style={styles.instructions}>
-				Press Cmd+R to reload,{'\n'}
-				Cmd+D or shake for dev menu
-				</Text>
+				<WebView source={{uri:'http://www.yahoo.com'}}  style={{marginTop:1,height:wH,width:wW}} />
 			</View>
 		)
 	}
