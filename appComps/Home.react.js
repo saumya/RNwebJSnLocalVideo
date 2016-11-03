@@ -10,16 +10,34 @@ import {
   WebView,
   View,
   Dimensions,
+  Alert,
 } from 'react-native';
+
+import WebViewBridge from 'react-native-webview-bridge'
 
 
 class Home extends Component {
+	componentDidMount(){
+		//Alert.alert('Home','Mount');
+
+	}
+	onBridgeMessage(message){
+		// called once we got message from Webview
+		//Alert.alert('WebView','Message'); 
+
+		//send something to webview
+		this.refs.webviewbridge.sendToBridge("pivotal react");
+	}
 	render(){
 		var wH = Dimensions.get('window').height
 		var wW = Dimensions.get('window').width
 		return(
 			<View style={styles.container}>
-				<WebView source={{uri:'http://www.yahoo.com'}}  style={{marginTop:1,height:wH,width:wW}} />
+				<WebViewBridge 
+					ref="webviewbridge"
+					onBridgeMessage={this.onBridgeMessage.bind(this)}
+					source={{uri:'http://pivotaldesign.biz/demo/sharangdhar/shop'}}
+					style={{marginTop:1,height:wH,width:wW}} />
 			</View>
 		)
 	}

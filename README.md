@@ -12,6 +12,9 @@ Two libraries are used.
  - [React Native WebView Javascript Bridge][1]
  - [react-native-video][2]
 
+## Note
+ - Some tweeking needed all around the project ( [Android][3] )
+
 ```
 react-native init AwesomeProject
 cd AwesomeProject
@@ -38,3 +41,4 @@ ifconfig | grep inet
 
 [1]: https://github.com/alinz/react-native-webview-bridge
 [2]: https://github.com/react-native-community/react-native-video
+[3]: https://github.com/alinz/react-native-webview-bridge/issues/130
