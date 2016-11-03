@@ -13,7 +13,8 @@ Two libraries are used.
  - [react-native-video][2]
 
 ## Note
- - Some tweeking needed all around the project ( [Android][3] )
+ - Some tweeking needed all around the project 
+ - [For JS call fix on Android, refer this][3]
 
 ```
 react-native init AwesomeProject
