@@ -15,6 +15,7 @@ Two libraries are used.
 ## Note
  - Some tweeking needed all around the project 
  - [For JS call fix on Android, refer this][3]
+ - [These are the changes][4] made to this project for JS call
 
 ```
 react-native init AwesomeProject
@@ -43,3 +44,4 @@ ifconfig | grep inet
 [1]: https://github.com/alinz/react-native-webview-bridge
 [2]: https://github.com/react-native-community/react-native-video
 [3]: https://github.com/alinz/react-native-webview-bridge/issues/130
+[4]: https://github.com/saumya/RNwebJSnLocalVideo/commit/fd9748e46f161714030b701f90394ac9887570a5
