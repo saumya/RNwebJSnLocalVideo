@@ -14,7 +14,7 @@ Two libraries are used.
 
 ## Note
  - Some tweeking needed all around the project 
- - For JS call fix on Android, refer [here][3] and [here][5] ( Ref: [Nice read][6] )
+ - For JS call fix on Android, refer [here][3] and [here][5] ( [A nice read][6] )
  - [These are the changes][4] made to this project for JS call to-and-from Web-and-Native
 
 ```
