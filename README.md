@@ -14,7 +14,7 @@ Two libraries are used.
 
 ## Note
  - Some tweeking needed all around the project 
- - [For JS call fix on Android, refer this][3]
+ - For JS call fix on Android, refer [here][3] and [here][5]
  - [These are the changes][4] made to this project for JS call
 
 ```
@@ -45,3 +45,4 @@ ifconfig | grep inet
 [2]: https://github.com/react-native-community/react-native-video
 [3]: https://github.com/alinz/react-native-webview-bridge/issues/130
 [4]: https://github.com/saumya/RNwebJSnLocalVideo/commit/fd9748e46f161714030b701f90394ac9887570a5
+[5]: https://github.com/alinz/react-native-webview-bridge/issues/117
