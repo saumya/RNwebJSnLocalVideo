@@ -1,5 +1,5 @@
-ReactNative with Video and JS call to Website
-=============================================
+ReactNative on Android, Video and JS call to/from WebView-Website
+=================================================================
 
 The purpose of this projet is to test     
 
@@ -15,7 +15,7 @@ Two libraries are used.
 ## Note
  - Some tweeking needed all around the project 
  - For JS call fix on Android, refer [here][3] and [here][5] ( [A nice read][6] )
- - [These are the changes][4] made to this project for JS call to-and-from Web-and-Native
+ - [These are the changes][4] made to this project for JS call to-and-from Web-and-Native 
 
 ```
 react-native init AwesomeProject
