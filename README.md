@@ -1,10 +1,11 @@
-ReactNative on Android, Video and JS call to/from WebView-Website
+ReactNative Video and JS call to/from WebView-Website
 =================================================================
 
 The purpose of this projet is to test     
 
- - JS calls from Webview to Webite and back (Done)
+ - JS calls from Webview to Webite and back (Done on Android)
  - Video running inside ReactNative (todo)
+
 
 
 Two libraries are used.          
