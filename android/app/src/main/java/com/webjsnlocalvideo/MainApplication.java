@@ -10,6 +10,7 @@ import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 
 import com.github.alinz.reactnativewebviewbridge.WebViewBridgePackage;
+import com.brentvatne.react.ReactVideoPackage;
 
 import java.util.Arrays;
 import java.util.List;
@@ -26,7 +27,8 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-          new WebViewBridgePackage()
+          new WebViewBridgePackage(),
+          new ReactVideoPackage()
       );
     }
   };

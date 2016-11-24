@@ -14,6 +14,7 @@ import {
 } from 'react-native';
 
 import WebViewBridge from 'react-native-webview-bridge'
+import Video from 'react-native-video'
 
 
 class Home extends Component {
@@ -37,7 +38,13 @@ class Home extends Component {
 					ref="webviewbridge"
 					onBridgeMessage={this.onBridgeMessage.bind(this)}
 					source={{uri:'http://pivotaldesign.biz/demo/sharangdhar/shop'}}
-					style={{marginTop:1,height:wH,width:wW}} />
+					style={{margin:4,height:wH/2,width:wW,}} />
+        
+        <Video
+          repeat
+          resizeMode='cover'
+          source={require('./video/fire.mp4')}
+          style={ {position: 'absolute',top:wH/2,left:0,bottom:0,right:0,margin:4} } />
 			</View>
 		)
 	}
@@ -58,6 +65,13 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: '#333333',
     marginBottom: 5,
+  },
+  backgroundVideo: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    bottom: 0,
+    right: 0,
   },
 });
 module.exports = Home;
