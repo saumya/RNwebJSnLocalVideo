@@ -1,4 +1,4 @@
-ReactNative Video and JS call to/from WebView-Website
+ReactNative Video, JS call to/from WebView-Website
 =================================================================
 
 The purpose of this projet is to test     
