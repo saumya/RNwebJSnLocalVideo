@@ -1,7 +1,11 @@
-ReactNative Video, JS call to/from WebView-Website
+ReactNative Experiment
 =================================================================
 
-The purpose of this projet is to test     
+
+ - React Native Video
+ - JS call to/from WebView-Website     
+
+Purpose of this project
 
  - JS calls from Webview to Webite and back (Done on Android)
  - Video running inside ReactNative (Done on Android)
